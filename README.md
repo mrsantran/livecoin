@@ -4,7 +4,7 @@ Start trading on Livecoin right away using your favorite PHP framework.
 
 ### Installation
 
-`composer require santran/livecoin`.
+`composer require santran/livecoin:dev-master`.
 
 Add the service provider to your `config/app.php`:
  
