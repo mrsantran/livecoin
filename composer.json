@@ -1,0 +1,24 @@
+{
+    "name": "santran/livecoin",
+    "description": "Livecoin API wrapper for Laravel",
+    "tags": ["livecoin", "api", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "San Tran",
+            "email": "santran686@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*",
+        "laravel/framework": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Santran\\Livecoin\\": "src/"
+        }
+    }
+}
